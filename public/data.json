@@ -1,0 +1,14 @@
+{
+  "cards":[
+    {
+      "img": "mockup-1.png",
+      "title": "Powerful design prototyping tools",
+      "description": "Get high-fidelity in under 5 minutes. Upload your design files and add animations, gestures, and transitions to transform your static screens into clickable, interactive prototypes."
+    },
+    {
+      "img": "mockup-2.png",
+      "title": "Seamless design communication",
+      "description": "Simplify your feedback process by having clients, team members, and stakeholders comment directly on your designs. See new feedback for all your projects in one convenient place, or drill down by active project, specific people, or your own name."
+    }
+  ]
+}
