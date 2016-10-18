@@ -5,9 +5,7 @@ class EmbedVideo extends React.Component {
     }
     handleClick() {
         document.getElementById('hero_modal').className = "hero-modal";
-        var iframe = document.querySelector('iframe');
-        var player = $f(iframe);
-        player.api("pause");
+        document.getElementById('embed-video').pause();
     }
     render() {
         return (

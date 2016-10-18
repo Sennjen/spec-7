@@ -5,9 +5,7 @@ class Hero extends React.Component {
     }
     handleClick() {
         document.getElementById('hero_modal').className += " is-open";
-        var iframe = document.querySelector('iframe');
-        var player = $f(iframe);
-        player.api("play");
+        document.getElementById('embed-video').play();
     }
     render() {
         return (

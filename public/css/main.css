@@ -265,6 +265,8 @@ body, html, .container {
       transform: translate(-50%, -50%);
       border-radius: 6.25em;
       transition: all 0.2s ease; }
+  #ent-banner-wrapper .hero-modal video::-webkit-media-controls-fullscreen-button {
+    display: none; }
 #ent-banner-wrapper .trusted-by {
   padding: 0;
   font-size: 16px;

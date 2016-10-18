@@ -303,6 +303,10 @@ body,html,.container{
         transition: all 0.2s ease;
       }
     }
+    video::-webkit-media-controls-fullscreen-button {
+      display: none;
+    }
+    video{}
   }
   .trusted-by{
     padding: 0;
